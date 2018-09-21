@@ -18,15 +18,21 @@ typedef struct student
 };
 int length (student *head); 
 void pai(student *head);
+void pai1(student *head);
+void pai2(student *head);
 void add(student *head);
-void shanchu(student *head, int pos);
-void search(student *head, int studentnumber);
-void change(student *head, int pos);
+void shanchu(student *head);
+void change(student *head);
+void change1(student *head);
 void show(student *head);
 void addtxt(student *head);
 void taketxt(student *head);
 void use(student *head);
+void shanchu1(student *head)
 void menu();
+void search2(student *head)
+void search1(student *head)
+void search(student *head);
 int main()
 {
     printf("\t欢迎来到宿舍管理系统\n");
